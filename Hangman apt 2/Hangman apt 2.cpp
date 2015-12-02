@@ -80,7 +80,7 @@ Then takes it and finds a random word via an RNG and establishes the length of t
 			error(2);
 		}
 
-		// REDO: maybe use counter 'l' to count how many words were extracted and have a varied amount of words in the dictionary and not just a static 126
+		// TODO: maybe use counter 'l' to count how many words were extracted and have a varied amount of words in the dictionary and not just a static 126
 		while (dict.good() && l < 126) // adds all words to the array
 		{
 			getline(dict, tempword);
