@@ -22,7 +22,7 @@ Hangman apt 2.vcxproj.filters
     "Source Files" filter).
 
 Hangman apt 2.cpp
-    This is the main application source file.
+    This is the main application source file.  All operations are done in the file.
 
 /////////////////////////////////////////////////////////////////////////////
 Other standard files:
@@ -31,8 +31,13 @@ StdAfx.h, StdAfx.cpp
     These files are used to build a precompiled header (PCH) file
     named Hangman apt 2.pch and a precompiled types file named StdAfx.obj.
 
+Dictionary.txt
+	Dictionary of 127 words for the application to pick from.
+
 /////////////////////////////////////////////////////////////////////////////
 Other notes:
+
+Make sure that 'Dictionary.txt' is in the debug folder.
 
 AppWizard uses "TODO:" comments to indicate parts of the source code you
 should add to or customize.
